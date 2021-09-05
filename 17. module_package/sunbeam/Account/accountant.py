@@ -1,0 +1,3 @@
+class Accountant:
+    pass
+
