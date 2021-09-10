@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Signup</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <style>
+        h1 {
+            margin-top: 40px;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Signup</h1>
+
+        <form
+            method="POST"
+            action="signup">
+
+            <div class="form-group">
+                <label for="">First Name</label>
+                <input name="first_name" type="text" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <label for="">Last Name</label>
+                <input name="last_name" type="text" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <label for="">Email</label>
+                <input name="email" type="email" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <label for="">Password</label>
+                <input name="password" type="password" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <input type="submit" class="btn btn-success" value="Signup">
+                <a href="signin" class="btn btn-warning float-right">Signin</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
